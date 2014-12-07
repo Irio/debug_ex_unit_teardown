@@ -1,4 +1,3 @@
-Portal
-======
+Repository created to report a bug to elixir-lang/elixir.
 
-** TODO: Add description **
+*Working version of the project is live at https://github.com/Irio/portal*
