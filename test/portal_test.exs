@@ -9,12 +9,7 @@ defmodule PortalTest do
     assert [] == Portal.Door.get(:blue)
   end
 
-  test "push_right: push head of left into right struct" do
-    Portal.shoot(:orange)
-    Portal.shoot(:blue)
-    portal = Portal.transfer(:orange, :blue, [1])
-    Portal.push_right(portal)
-    assert [] == Portal.Door.get(:orange)
-    assert [1] == Portal.Door.get(:blue)
+  test "existent value" do
+    assert [1] == Portal.Door.get(:orange)
   end
 end
